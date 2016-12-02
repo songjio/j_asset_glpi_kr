@@ -659,7 +659,8 @@ class Computer extends CommonDBTM {
       
       ///////////////////////////////////////////////////////////////////////////////////////////////
       if($ID > 0){
-      $docdb=mysql_connect("localhost","root","jiin0701");
+                                           //db password
+      $docdb=mysql_connect("localhost","root","");
       mysql_select_db("glpi_db",$docdb);      
       
       $docquery="select a.mime, b.documents_id, b.itemtype 
@@ -674,7 +675,7 @@ class Computer extends CommonDBTM {
       		$org = $row[mime];
       		$indexlen  = strpos($org, "/");
       		$resultstr = substr($org,0,$indexlen);
-      		echo $resultstr;
+
       		if($resultstr=="image"){
       			echo "<tr class='tab_bg_1'>";
       			echo "<td>".__('image')."</td>";
