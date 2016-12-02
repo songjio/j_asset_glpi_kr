@@ -1,0 +1,9 @@
+sql root비밀번호 변경법
+
+1) 환경변수에 mysqlbin을 등록한다
+2) cmd 를 관리자 권한으로 열어 mysqladmin -u root PASSWORD jiin0701 를입력한다
+※jiin0701 -> 변경할 password
+php.ini
+my.ini(mysql폴더밑)
+그리고 myphpadmin설정파일에서도 변경해준다
+3) 자바db config에 변경한 db정보를 입력한다

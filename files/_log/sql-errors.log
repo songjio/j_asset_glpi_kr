@@ -1,0 +1,10 @@
+2016-11-25 07:42:27 [2@SONGJO]
+  *** MySQL query error:
+  SQL: UPDATE `glpi_ipnetworks`
+                       SET `network` = \'192.160.0.165 / 225.225.225.0\' WHERE `id` =\'1\'
+  Error: Unknown column 'network' in 'field list'
+  Backtrace :
+  inc\commondbtm.class.php:356                       
+  inc\commondbtm.class.php:1127                      CommonDBTM->updateInDB()
+  front\dropdown.common.form.php:103                 CommonDBTM->update()
+  front\ipnetwork.form.php:55                        include()

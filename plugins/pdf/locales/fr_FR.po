@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nelly Mahu-Lasson <nini.lasson@orange.fr>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI Project - Plugin PDF\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-25 20:07+0100\n"
+"PO-Revision-Date: 2016-02-25 19:19+0000\n"
+"Last-Translator: Nelly Mahu-Lasson <nini.lasson@orange.fr>\n"
+"Language-Team: French (France) (http://www.transifex.com/yllen/glpi-project-plugin-pdf/language/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: hook.php:48 setup.php:76 inc/common.class.php:122
+#: inc/preference.class.php:182 inc/profile.class.php:43
+#: inc/profile.class.php:71 inc/profile.class.php:75 inc/profile.class.php:93
+msgid "Print to pdf"
+msgstr "Impression pdf"
+
+#: inc/changecost.class.php:58
+msgid "No cost for this change"
+msgstr "Pas de coût pour ce changement"
+
+#: inc/change_problem.class.php:69
+msgid "No problem found."
+msgstr "Aucun problème"
+
+#: inc/change_problem.class.php:242
+msgid "No change found."
+msgstr "Aucun changement"
+
+#: inc/changevalidation.class.php:49
+msgid "Approvals for the change"
+msgstr "Validations pour ce changement"
+
+#: inc/common.class.php:292
+msgid "No note found"
+msgstr "Pas de note trouvée"
+
+#: inc/computerdisk.class.php:84
+msgid "No volume found"
+msgstr "Pas de volume trouvé"
+
+#: inc/computer_item.class.php:125
+msgid "No printer"
+msgstr "Pas d'imprimante"
+
+#: inc/computer_item.class.php:129
+msgid "No monitor"
+msgstr "Pas d'écran"
+
+#: inc/computer_item.class.php:133
+msgid "No peripheral"
+msgstr "Aucun périphérique"
+
+#: inc/computer_item.class.php:137
+msgid "No phone"
+msgstr "Pas de téléphone"
+
+#: inc/computer_softwareversion.class.php:291
+msgid "No installed software"
+msgstr "Pas de logiciel installé"
+
+#: inc/document.class.php:67
+msgid "No associated documents"
+msgstr "Pas de document associé"
+
+#: inc/document.class.php:69
+msgid "Associated documents"
+msgstr "Documents associés"
+
+#: inc/infocom.class.php:157
+msgid "No financial information"
+msgstr "Pas d'information financière"
+
+#: inc/knowbaseitem.class.php:85
+msgid "No question found"
+msgstr "Pas de question trouvée"
+
+#: inc/preference.class.php:118
+msgid "Choose the tables to print in pdf"
+msgstr "Choisir les tableaux pour l'impression pdf"
+
+#: inc/preference.class.php:161
+msgid "Portrait"
+msgstr "Portrait"
+
+#: inc/preference.class.php:162
+msgid "Landscape"
+msgstr "Paysage"
+
+#: inc/preference.class.php:168
+msgctxt "button"
+msgid "Print"
+msgstr "Imprimer"
+
+#: inc/problem_ticket.class.php:243
+msgid "No ticket found."
+msgstr "Aucun ticket"
+
+#: inc/reservation.class.php:127
+msgid "Item not reservable"
+msgstr "Eléments non réservable"
+
+#: inc/ticketcost.class.php:58
+msgid "No cost for this ticket"
+msgstr "Pas de coût pour ce ticket"
+
+#: inc/ticketfollowup.class.php:70
+msgid "No followup for this ticket."
+msgstr "Pas de suivi pour ce ticket"
+
+#: inc/ticketfollowup.class.php:77
+msgid "Source of followup"
+msgstr "Source du suivi"
+
+#: inc/ticketsatisfaction.class.php:61
+msgid "1 star"
+msgstr "1 étoile"
+
+#: inc/ticketsatisfaction.class.php:62
+msgid "2 stars"
+msgstr "2 étoiles"
+
+#: inc/ticketsatisfaction.class.php:63
+msgid "3 stars"
+msgstr "3 étoiles"
+
+#: inc/ticketsatisfaction.class.php:64
+msgid "4 stars"
+msgstr "4 étoiles"
+
+#: inc/ticketsatisfaction.class.php:65
+msgid "5 stars"
+msgstr "5 étoiles"
+
+#: inc/ticketsatisfaction.class.php:81
+msgid "No answer"
+msgstr "Pas de réponse"
+
+#: inc/ticketvalidation.class.php:49
+msgid "Approvals for the ticket"
+msgstr "Validations pour ce tickets"
