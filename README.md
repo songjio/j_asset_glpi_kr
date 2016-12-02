@@ -73,4 +73,6 @@ We are working on a [markdown version](https://github.com/glpi-project/doc)
 * [Forum](http://forum.glpi-project.org)
 * IRC : irc://irc.freenode.org/glpi
 * [Plugin directory](http://plugins.glpi-project.org)
-* [Plugin development documentation](https://github.com/pluginsGLPI/example)
+* [Plugin development documentation](https://github.com/pluginsGLPI/example
+
+## 추가사항
