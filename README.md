@@ -96,3 +96,9 @@ Google 계정연동
 Asset에 사진 추가
 * 기본 기능인 문서 연결을 이용
 * 문서 타입이 img일 경우에만 view창이 폼에 띄어진다
+
+DB정보 (현재 지운상태 입력해야지 정상작동됨)
+* config/config_db
+* Asset의 각종 물품의 폼에 연결된 class들에도 db정보를 입력해주어야함 (ex. computer -> inc/computer.class.php)
+
+UTF-8로 설정 euc-kr로 설정시 한글이 다깨짐
