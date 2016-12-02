@@ -5,7 +5,7 @@
                 
  public $dbuser     = 'root';
                 
- public $dbpassword = 'jiin0701';
+ public $dbpassword = '';
                 
  public $dbdefault  = 'glpi_db';
  
