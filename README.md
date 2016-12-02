@@ -76,3 +76,23 @@ We are working on a [markdown version](https://github.com/glpi-project/doc)
 * [Plugin development documentation](https://github.com/pluginsGLPI/example
 
 ## 추가사항
+
+Plugin 설치
+
+* mydashboard -> 성공
+* archires -> 버전이 안맞음 (버전속임)
+* report -> 버전이 안맞음 (버전속임)
+* More Reporting -> 성공
+* datainjection -> 성공
+* pdf -> 버전안맞음 (버전속임)
+* addressing -> 버전안맞음 (버전속임)
+* monitoring -> 버전안맞음 (버전속임)
+
+한글 번역 수정
+
+Google 계정연동
+* 계정 정보는 가져오지만 session이 끊겨서 로그인은 되지않음(수정필요)
+
+Asset에 사진 추가
+* 기본 기능인 문서 연결을 이용
+* 문서 타입이 img일 경우에만 view창이 폼에 띄어진다
