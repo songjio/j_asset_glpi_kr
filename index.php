@@ -130,7 +130,7 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
    //¹öÆ°*********************************************//
    echo '<p class="login_input">
          <input type="submit" name="submit" value="'._sx('button','Post').'" class="submit" />
-         <input type="button" name="google" value="Login With Google" class="submit" onclick="location.href=\'googleapitest.php\'";/>
+         <input type="button" name="google" value="Login With Google(not working)" class="submit" onclick="location.href=\'googleapitest.php\'";/>
          </p>';
 
    if ($CFG_GLPI["use_mailing"]
@@ -198,6 +198,6 @@ if (!file_exists(GLPI_CONFIG_DIR . "/config_db.php")) {
 if (!GLPI_DEMO_MODE) {
    CronTask::callCronForce();
 }
-
+   
 echo "</body></html>";
 ?>
